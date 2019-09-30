@@ -1,0 +1,145 @@
+body
+{
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+  /* text en foto opties */
+
+.center{
+    text-align: center;
+}
+
+.text-titel{
+  font-size: 80px;
+  font-weight: 700;
+  cursor: default;
+}
+
+.text-upper{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-font {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-white {
+	color: white;
+}
+
+.radius{
+	cursor: default;
+	border-radius: 15px;
+}
+
+  /* begin navigatiebar */
+ 
+.nav ul {
+  list-style: none;
+  background-color: #f6ca88;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+  /* laat kleur zien als je met muis over gaat */
+.nav a:hover {
+  background-color: #ed9512;
+}
+ /* laat kleur zien van actief tabblad */
+.nav a.active {
+  background-color: #FFFFFF;
+  color: #f6ca88;
+  cursor: default;
+}
+  
+@media screen and (min-width: 600px) {
+  /*bij kleiner dan 600px zet die alle buttons van het navigatiebar onder elkaar*/
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+  }
+ 
+  /* Optie 1 laat kleur zien */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+}
+
+  /* einde navigatie */
+
+  /* container in het midden */
+
+.maincontainer{
+	max-width:800px;
+    margin-left: 350px;
+	margin-right: auto;
+    border: 3px solid #FFFFFF;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	float: left;
+	cursor: default
+	}
+	
+.maincontaineremailpage{
+	max-width:800px;
+    margin-left: 500px;
+	margin-right: auto;
+    border: 3px solid #FFFFFF;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	float: left;
+	cursor: default
+	}
+
+  /*container aan de rechterzijde*/
+
+.sidecontainer{
+	max-width:350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid #FFFFFF;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	float: right;
+	cursor: default;
+}
+
+.link {
+    background-color: #f6ca88;
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+	text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+	border-radius: 12px;
+    cursor: pointer;
+}
